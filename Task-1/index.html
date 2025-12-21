@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nilesh | Personal Portfolio</title>
 </head>
+
 <body>
 
     <!-- Header Section -->
     <header>
         <h1>Nilesh Pardeshi</h1>
         <p>Aspiring AI/ML Engineer • Beginner Web Developer</p>
+
         <nav>
             <a href="#about">About</a> |
             <a href="#skills">Skills</a> |
@@ -21,73 +23,94 @@
 
     <hr>
 
-    <!-- About Me -->
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="nilesh.jpg" width="160" alt="My Photo">
-        
-        <p>Hello! I am <strong>Nilesh Pardeshi</strong>, currently pursuing a B.Tech in Artificial Intelligence & Machine Learning at R.C. Patel Institute of Technology.</p>
+    <!-- Main Content -->
+    <main>
 
-        <p>I am passionate about coding, problem-solving, and building projects in AI/ML and web development. Right now I'm completing the Developer’s Arena Internship and improving my HTML & web fundamentals.</p>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
 
-        <p>I believe in learning by building and improving myself every day.</p>
-    </section>
+            <img src="images\nilesh.jpg" width="160" alt="Photo of Nilesh Pardeshi">
 
-    <hr>
+            <p>
+                Hello! I am <strong>Nilesh Pardeshi</strong>, currently pursuing B.Tech in
+                Artificial Intelligence & Machine Learning at R.C. Patel Institute of Technology.
+            </p>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
+            <p>
+                I am passionate about coding, problem-solving, and building projects in AI/ML and web development.
+                Currently, I am completing the Developer’s Arena Internship and strengthening my HTML fundamentals.
+            </p>
 
-        <ul>
-            <li>HTML (Basic Web Structure)</li>
-            <li>Python (Intermediate)</li>
-            <li>Java (DSA Basics)</li>
-            <li>React.js (Learning)</li>
-            <li>Machine Learning Concepts</li>
-            <li>Problem Solving & Logical Thinking</li>
-        </ul>
-    </section>
+            <p>
+                I believe in learning by building real projects and improving myself every day.
+            </p>
+        </section>
 
-    <hr>
+        <hr>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
 
-        <h3>1. Movie Recommendation System</h3>
-        <p>A system built using React and Tailwind CSS that recommends movies based on user preferences.</p>
+            <ul>
+                <li>HTML (Basic Web Structure)</li>
+                <li>Python (Intermediate)</li>
+                <li>Java (DSA Basics)</li>
+                <li>React.js (Learning)</li>
+                <li>Machine Learning Concepts</li>
+                <li>Problem Solving & Logical Thinking</li>
+            </ul>
+        </section>
 
-        <h3>2. Task Manager App</h3>
-        <p>A frontend To-Do list web app using React, Firebase Authentication, and Firestore.</p>
+        <hr>
 
-        <h3>3. Portfolio Website (This Project)</h3>
-        <p>A simple HTML-only portfolio created as part of Week 1 internship task.</p>
+        <!-- Projects Section (Bonus) -->
+        <section id="projects">
+            <h2>My Projects</h2>
 
-        <h3>4. Eco Product Recommendation System</h3>
-        <p>A content-based recommendation model using Python, TF-IDF, and cosine similarity.</p>
-    </section>
+            <h3>1. Movie Recommendation System</h3>
+            <p>
+                A movie recommendation system built using React and Tailwind CSS that suggests movies based on user preferences.
+            </p>
 
-    <hr>
+            <h3>2. Task Manager App</h3>
+            <p>
+                A frontend To-Do list web application using React, Firebase Authentication, and Firestore.
+            </p>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
+            <h3>3. Portfolio Website</h3>
+            <p>
+                A simple HTML-only personal portfolio created as part of Week 1 internship task.
+            </p>
 
-        <form>
-            <label for="name">Your Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <h3>4. Eco Product Recommendation System</h3>
+            <p>
+                A content-based recommendation system using Python, TF-IDF, and cosine similarity.
+            </p>
+        </section>
 
-            <label for="email">Your Email</label><br>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <hr>
 
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
 
-            <button type="submit">Send</button>
-        </form>
+            <form action="#" method="post">
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-    </section>
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
 
     <hr>
 
