@@ -1,0 +1,325 @@
+/* =========================================================
+   GLOBAL RESET & FONTS
+========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f5f9;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   HEADER + NAVBAR
+========================================================= */
+.header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: #ffe08a;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* =========================================================
+   PAGE HEADER SECTION
+========================================================= */
+.page-header {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    color: white;
+}
+
+.page-header h1 {
+    font-size: 42px;
+}
+
+/* =========================================================
+   HERO SECTION
+========================================================= */
+.hero {
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.hero-content, .hero-text-block {
+    max-width: 520px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text-block {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+.btn-primary {
+    background: linear-gradient(45deg, #ff9966, #ff5e62);
+    padding: 12px 22px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary {
+    padding: 12px 22px;
+    background: white;
+    color: #2575fc;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #e3e9ff;
+}
+
+/* =========================================================
+   SECTION TEMPLATE
+========================================================= */
+.section {
+    padding: 60px 40px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* =========================================================
+   HIGHLIGHT CARDS
+========================================================= */
+.highlight-boxes {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.highlight {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.highlight:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================================================
+   SERVICE CARDS (HOME PAGE)
+========================================================= */
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-btn {
+    background: #2575fc;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+/* =========================================================
+   ABOUT PAGE VALUES GRID
+========================================================= */
+.values-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.value-box {
+    width: 260px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* =========================================================
+   SERVICES PAGE ROWS
+========================================================= */
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.service-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-info {
+    max-width: 500px;
+}
+
+/* =========================================================
+   CONTACT PAGE
+========================================================= */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.contact-form {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    width: 420px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+}
+
+/* =========================================================
+   CTA SECTION
+========================================================= */
+.cta {
+    background: linear-gradient(45deg, #fc466b, #3f5efb);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    margin: 50px;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+        color: #2575fc;
+    }
+
+    .navbar.show {
+        display: block;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+}
