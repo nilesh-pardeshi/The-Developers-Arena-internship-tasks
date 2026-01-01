@@ -70,17 +70,6 @@ This project fulfills all requirements of **Week 5 (Advanced CSS & Modern Layout
 
 ---
 
-## 🧠 Technologies Used
-
-- **HTML5**
-- **CSS3 (Grid + Flexbox)**
-- **CSS Variables**
-- **BEM Methodology**
-- **JavaScript (Theme + Mobile Menu)**
-- **Responsive Design**
-- **Animations (keyframes + transitions)**
-
----
 
 ## ⚙️ How to Run the Project Locally
 

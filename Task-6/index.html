@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Dashboard | Modern Glass UI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JS -->
+    <script defer src="js/api.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <h1 class="header__title">Weather Dashboard</h1>
+
+        <div class="header__actions">
+            <button id="themeToggle" class="btn-theme">🌙</button>
+        </div>
+    </header>
+
+
+    <section class="search-section">
+        <input type="text" id="cityInput" placeholder="Search city..." class="search-box">
+        <button id="searchBtn" class="btn-search">Search</button>
+    </section>
+
+
+    <main class="container">
+
+        <!-- Current Weather -->
+        <section id="currentWeather" class="glass-card current-weather">
+            <h2>Current Weather</h2>
+            <p class="loading">Enter a city to see weather...</p>
+        </section>
+
+        <!-- Forecast Section -->
+        <section class="forecast-section">
+            <h2>5-Day Forecast</h2>
+            <div id="forecastGrid" class="forecast-grid">
+                <!-- Forecast cards injected with JS -->
+            </div>
+        </section>
+
+        <!-- User Preferences -->
+        <section class="glass-card preferences-card">
+            <h2>User Preferences</h2>
+            <p><strong>Saved City:</strong> <span id="savedCity">None</span></p>
+            <p><strong>Unit System:</strong> <span id="savedUnits">Metric</span></p>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>© 2025 Weather Dashboard — Open-Meteo API</p>
+    </footer>
+
+</body>
+
+</html>
