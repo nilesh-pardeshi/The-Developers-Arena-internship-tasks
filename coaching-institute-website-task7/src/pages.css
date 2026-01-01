@@ -1,0 +1,114 @@
+/* ===============================
+   SECTION STYLING
+================================ */
+
+.section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+/* ===============================
+   HOME PAGE
+================================ */
+
+.home-page .hero-section {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #dbeafe;
+}
+
+.hero-description {
+  font-size: 16px;
+  color: #e0e7ff;
+}
+
+/* ===============================
+   FEATURE LIST
+================================ */
+
+.feature-list li {
+  background-color: #f1f5f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* ===============================
+   COURSES PAGE
+================================ */
+
+.course-list li {
+  background-color: #eef2ff;
+  padding: 10px;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+}
+
+/* ===============================
+   ADMISSION PAGE
+================================ */
+
+.process-list li {
+  background-color: #f0f9ff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.rules-list li {
+  background-color: #fff7ed;
+  padding: 10px;
+  border-left: 4px solid #fb923c;
+  border-radius: 4px;
+}
+
+/* ===============================
+   CONTACT PAGE
+================================ */
+
+.contact-list li,
+.hours-list li {
+  background-color: #f8fafc;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+/* ===============================
+   FAQ SECTION
+================================ */
+
+.faq-section p {
+  background-color: #f9fafb;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   FINAL MESSAGE
+================================ */
+
+.final-message {
+  background: linear-gradient(135deg, #ecfeff, #cffafe);
+  padding: 20px;
+  border-radius: 8px;
+}
