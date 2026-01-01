@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | NP Tech Solutions</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- JS -->
+    <script defer src="js/theme-switcher.js"></script>
+</head>
+
+<body class="theme-light">
+
+
+<header class="header">
+    <div class="header__logo">NP Tech Solutions</div>
+
+    <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <button class="header__theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+
+    <div class="header__menu" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="page-header fade-in">
+    <h1>Contact Our Team</h1>
+    <p>We're ready to collaborate on your next digital project</p>
+</section>
+
+<section class="section fade-in">
+
+    <h2 class="section__title">Get in Touch</h2>
+
+    <div class="contact-grid">
+
+        <!-- Info Column -->
+        <div class="contact__info">
+            <h3>Why Contact Us?</h3>
+            <p>
+                Whether you're starting a large website, designing a new interface,
+                or simply exploring layout ideas, we’re here to help.
+            </p>
+
+            <p>
+                Our expertise includes:
+            </p>
+
+            <ul class="contact__list">
+                <li>⚡ Advanced CSS layouts</li>
+                <li>💎 Premium front-end interfaces</li>
+                <li>📱 Responsive website creation</li>
+                <li>🎨 UI/UX design systems</li>
+                <li>🧩 Custom component architectures</li>
+            </ul>
+
+            <p>
+                We respond within <strong>24 hours</strong> to all messages.
+            </p>
+        </div>
+
+        <!-- Form Column -->
+        <form id="contactForm" class="contact__form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Type your message..." rows="6"></textarea>
+
+            <button type="submit" class="btn-primary">Send Message</button>
+
+            <p id="form-msg"></p>
+
+        </form>
+
+    </div>
+</section>
+
+<section class="section fade-in">
+
+    <h2 class="section__title">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+
+        <div class="faq-item">
+            <h3>How fast do you reply?</h3>
+            <p>Our average response time is within 24 hours.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do you work internationally?</h3>
+            <p>Yes, our services are available worldwide.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do you offer custom designs?</h3>
+            <p>
+                Absolutely — every design is handcrafted using CSS Grid, Flexbox
+                and modern UI patterns.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is this portfolio responsive?</h3>
+            <p>
+                Yes, it is built with mobile-first responsiveness and dynamic
+                resizing using CSS Grid auto-fit.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta-section fade-in">
+    <h2>Ready to Build Something?</h2>
+    <p>
+        Let us help you design and develop a premium digital experience using the
+        latest CSS techniques.
+    </p>
+    <a href="projects.html" class="btn-secondary">View Our Projects</a>
+</section>
+
+
+<footer class="footer">
+    <p>© 2025 NP Tech Solutions — Contact Page</p>
+</footer>
+
+</body>
+</html>
